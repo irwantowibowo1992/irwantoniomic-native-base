@@ -1,25 +1,11 @@
-## NATIVE BASE
+## PENGGUNAAN COMPONENT NATIVE BASE
 
-Kali ini kita akan belajar tentang native base.
-Hal pertama yang harus kita siapkan tentu saja package native-base, jika belum ada maka install terlebih dahulu dengan cara ``` npm install --save native-base``` atau bisa juga dengan menggunakan yarn dengan cara ```yarn add native-base```.
+1. Accordion
+    Yang perlu kita perhatikan adalah untuk properti data pada accordion hanya bisa menerima "title" dan "content" saja, jika selain itu maka datanya tidak akan ditampilkan.
 
-Jika sudah selesai diinstall tinggal kita link-kan supaya dapat dipaki, dengan cara ```react-native link```
+2. Badge
 
-Oke selesai untuk install native-base. Untuk percobaan pertama kita akan membuat button sederhana menggunkana native base
+3. Card
 
-### App.js
-```javascript
-    import { Container, Button, Text } from 'native-base'
-
-    class App extends Component {
-    render(){
-        return(
-        <Container>
-            <Button>
-            <Text>Button Native Base</Text>
-            </Button>
-        </Container>
-        )
-    }
-    }
-```
+4. ScrollView
+    Khusus untuk ScrollView ini dari componen react-native, bukan dari native-base
