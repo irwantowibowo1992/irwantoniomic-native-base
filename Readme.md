@@ -7,7 +7,7 @@ Jika sudah selesai diinstall tinggal kita link-kan supaya dapat dipaki, dengan c
 
 Oke selesai untuk install native-base. Untuk percobaan pertama kita akan membuat button sederhana menggunkana native base
 
-# App.js
+### App.js
 ```javascript
     import { Container, Button, Text } from 'native-base'
 
